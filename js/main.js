@@ -96,10 +96,8 @@
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
 
-    elSelect.addEventListener("change",()=>{
-        laImagen.setAttribute("src","img/" + elSelect.selectedOptions[0].value + ".jpg")
-      })
-
     
+     
+      
 })(jQuery);
 

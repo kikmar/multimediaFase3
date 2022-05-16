@@ -261,6 +261,11 @@
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <select class="form-select border-0" id="elSelect" style="height: 55px;">
+                                        <script>
+                                        elSelect.addEventListener("change",()=>{
+                                            laImagen.setAttribute("src","/img/" + elSelect.selectedOptions[0].value + ".jpg")
+                                          })
+                                        </script>
                                         <option value="palaciomadrid">La noche de Madrid</option>
                                         <option value="cibeles-1">Fuente de la Cibeles</option>
                                         <option value="almudena">Catedral de la Almudena</option>
