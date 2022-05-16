@@ -2258,7 +2258,7 @@ progress {
 }
 
 .form-control:focus {
-    color: #9B9B9B;
+    color: #1f1f1f;
     background-color: #fff;
     border-color: #99e1b6;
     outline: 0;
@@ -2270,7 +2270,7 @@ progress {
 }
 
 .form-control::placeholder {
-    color: #6c757d;
+    color: #1f1f1f;
     opacity: 1
 }
 
